@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stalcraft</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            overflow-x: hidden;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #111;
+            border-bottom: 1px solid #333;
+        }
+        .navbar-left {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1em;
+            transition: color 0.3s;
+        }
+        .navbar a:hover {
+            color: #e63946;
+        }
+        .logo img {
+            height: 40px;
+        }
+        .main-banner {
+            position: relative;
+            color: white;
+            padding: 20px;
+        }
+        .main-banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .main-banner .content {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            transform: translateY(-50%);
+            text-align: left;
+        }
+        .main-banner .content h1 {
+            font-size: 3em;
+            margin: 0 0 10px;
+        }
+        .main-banner .content p {
+            font-size: 1.2em;
+            margin: 10px 0 20px;
+        }
+        .main-banner .content a {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #e63946;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .main-banner .content a:hover {
+            background-color: #d62828;
+        }
+        .social-links {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .social-links a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            background-color: #111;
+            border: 1px solid #333;
+            border-radius: 5px;
+            color: white;
+            font-size: 1.2em;
+            text-decoration: none;
+            transition: background 0.3s, color 0.3s;
+        }
+        .social-links a:hover {
+            background-color: #e63946;
+            color: white;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: #aaa;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #e63946;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <div class="logo">
+                <img src="image/stalcraft_logo.666787ae.svg" alt="Stalcraft Logo Сталфкрафт Логотип">
+            </div>
+            <a href="#news">НОВОСТИ</a>
+            <a href="#community">СООБЩЕСТВА ▾</a>
+            <a href="#help">ПОМОЩЬ ▸</a>
+            <a href="#expo">РЭД ЭКСПО</a>
+        </div>
+    </div>
+
+    <div class="main-banner">
+        <img src="image/welcome_banner_lg.b0774665.webp" alt="Чернобыль">
+        <div class="content">
+            <h1>Добро пожаловать в Чернобыль</h1>
+            <p>STALCRAFT: X — это игра в жанре MMOFPS с элементами Survival Horror, которая сочетает в себе открытый мир, RPG и динамичный шутер.</p>
+            <a href="#play">Играть бесплатно</a>
+        </div>
+        <div class="social-links">
+            <a href="#">VK</a>
+            <a href="#">YouTube</a>
+            <a href="#">Discord</a>
+            <a href="#">Telegram</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Stalcraft. Все права защищены. | <a href="#privacy">Политика конфиденциальности</a></p>
+    </footer>
+</body>
+</html>
+
